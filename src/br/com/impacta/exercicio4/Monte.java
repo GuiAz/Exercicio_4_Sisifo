@@ -7,7 +7,9 @@ public class Monte {
 	public void atingirTopo() {
 		System.out.println("Topo foi Atingido");
 	}
-
+	
+	//EXEMPLOS DE ENCAPSULAMENTO: GETTERS E SETTERS, PARA QUE OS ATRIBUTOS SEJAM PRIVADOS MAS ACESSIVEIS.
+	//PROTEGENDO A INTEGRIDADE DO OBJETO.
 	public double getAltura() {
 		return altura;
 	}
