@@ -7,5 +7,15 @@ public class Pedra {
 	public void rolar() {
 		System.out.println("Rolando");
 	}
+
+	public double getPeso() {
+		return peso;
+	}
+
+	public void setPeso(double peso) {
+		this.peso = peso;
+	}
+	
+	
 	
 }
