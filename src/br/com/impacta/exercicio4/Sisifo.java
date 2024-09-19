@@ -5,7 +5,17 @@ public class Sisifo extends Pessoa{
 	
 	@Override
 	public void empurrarPedra() {
-		System.out.println("Empurrao repetitivo da Pedra");
+		System.out.println("Override do metodo de Empurrar Pedra da Classe Pessoa");
 	}
 
+	public double getForca() {
+		return forca;
+	}
+
+	public void setForca(double forca) {
+		this.forca = forca;
+	}
+
+	
+	
 }
